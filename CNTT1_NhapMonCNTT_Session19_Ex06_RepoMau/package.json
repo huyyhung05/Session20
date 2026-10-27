@@ -1,0 +1,9 @@
+{
+  "name": "session19-ex06-secure-template",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/config.js",
+  "scripts": {
+    "check": "node --env-file=.env -e \"require('./src/config.js')(); console.log('Cau hinh hop le')\""
+  }
+}

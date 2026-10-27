@@ -1,0 +1,24 @@
+# Secrets va cau hinh theo may
+.env
+.env.*
+!.env.example
+!.env.development.example
+!.env.test.example
+!.env.production.example
+
+# Node.js
+node_modules/
+dist/
+build/
+coverage/
+*.log
+
+# IDE / OS
+.vscode/settings.json
+.DS_Store
+Thumbs.db
+
+# Private credentials
+*.pem
+*.p12
+*.key
